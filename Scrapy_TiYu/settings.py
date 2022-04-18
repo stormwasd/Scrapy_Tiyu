@@ -24,6 +24,7 @@ MONGO_DB_USERNAME = 'storm'
 MONGO_DB_PASSWORD = '98765432.zx'
 ITEM_PIPELINES = {
     'Scrapy_TiYu.pipelines.ScrapyTiYuPipeline': 300,
+    'crawlab.pipelines.CrawlabMongoPipeline': 888
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
